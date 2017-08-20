@@ -28,7 +28,8 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_DTBTOOL_ARGS := --force-v3
+BOARD_DTBTOOL_ARGS := --force-v3 --motorola 1
+TARGET_CUSTOM_DTBTOOL := dtbTool_custom
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_KERNEL_CONFIG := potter_defconfig
 

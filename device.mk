@@ -416,6 +416,11 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Verity
+PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
+PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/oem
+$(call inherit-product, build/target/product/verity.mk)
+
 # VNDK
 # Update this list with what each blob is actually for
 # libstdc++: camera.msm8953

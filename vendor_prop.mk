@@ -122,6 +122,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.mod.platformsdkversion=281
 
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=1
+
 # OMX
 # Rank OMX SW codecs lower than OMX HW codecs
 PRODUCT_PROPERTY_OVERRIDES += \

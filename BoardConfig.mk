@@ -26,9 +26,6 @@ TARGET_OTA_ASSERT_DEVICE := potter
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-# Include
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
-
 # Kernel
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_DTBTOOL_ARGS := --force-v3 --motorola 1

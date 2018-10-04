@@ -42,7 +42,7 @@
         <value>1958400</value>
         <value>2016000</value>
     </array>
-    <array name="cpu.active.cluster0">
+    <array name="cpu.core_power.cluster0">
         <value>33.802</value>
         <value>46.767</value>
         <value>59.310</value>

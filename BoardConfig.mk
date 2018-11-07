@@ -58,9 +58,6 @@ TARGET_OTA_ASSERT_DEVICE := potter,potter_retail
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-01-01
 
-# Enable dexpreopt to speed boot time
-WITH_DEXPREOPT := true
-
 # GPS
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true

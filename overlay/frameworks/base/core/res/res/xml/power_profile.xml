@@ -51,7 +51,7 @@
         <value>112.014</value>
         <value>118.914</value>
     </array>
-    <item name="cpu.idle">6.198</item>
+    <item name="cpu.suspend">6.198</item>
     <item name="battery.capacity">3000</item>
     <item name="wifi.controller.idle">0.585</item>
     <item name="wifi.controller.rx">65.896</item>

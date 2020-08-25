@@ -16,6 +16,6 @@
 /devices/soc/7864900.sdhci/mmc_host*        auto		      auto	nosuid,nodev					                                                          wait,voldmanaged=sdcard1:auto,encryptable=footer
 /dev/block/zram0		            none		      swap	defaults					                                                          zramsize=75%
 
-/dev/block/bootdevice/by-name/system        /system                   ext4      ro,barrier=1                                                                                              wait,recoveryonly
-/dev/block/bootdevice/by-name/oem           /vendor                   ext4      ro,barrier=1                                                                                              wait,recoveryonly
+/dev/block/platform/soc/7824900.sdhci/by-name/system        /system   ext4      ro,barrier=1                                                                                              wait,first_stage_mount
+/dev/block/platform/soc/7824900.sdhci/by-name/oem           /vendor   ext4      ro,barrier=1                                                                                              wait,first_stage_mount
 /dev/block/bootdevice/by-name/boot          /boot                     emmc      defaults                                                                                                  defaults

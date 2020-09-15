@@ -1,0 +1,2 @@
+# Sensors
+/(vendor|system/vendor)/bin/motosh                       u:object_r:sensor_hub_exec:s0

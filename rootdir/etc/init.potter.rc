@@ -69,7 +69,7 @@ on post-fs-data
     mkdir /data/vendor/sensorhub_logs 0730 system diag
 
 # Start Sensor daemon
-service motosh /vendor/bin/motosh boot
+service vendor.motosh /vendor/bin/motosh boot
     class late_start
     user compass
     group compass misc input

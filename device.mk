@@ -86,10 +86,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    libsensorhub \
     motosh \
-    sensorhub.msm8953 \
-    sensors.msm8953 \
     sensors.rp
 
 PRODUCT_COPY_FILES += \

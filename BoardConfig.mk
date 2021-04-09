@@ -53,4 +53,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/device.prop
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
--include vendor/motorola/potter/BoardConfigVendor.mk
+include vendor/motorola/potter/BoardConfigVendor.mk

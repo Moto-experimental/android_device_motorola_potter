@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/potter/potter-vendor.mk)
+$(call inherit-product, vendor/motorola/potter/potter-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920

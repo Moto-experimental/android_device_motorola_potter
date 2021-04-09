@@ -72,4 +72,4 @@ MOT_SENSOR_HUB_FEATURE_GR := true
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
--include vendor/motorola/potter/BoardConfigVendor.mk
+include vendor/motorola/potter/BoardConfigVendor.mk

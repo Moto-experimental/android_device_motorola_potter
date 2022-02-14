@@ -17,7 +17,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/motorola
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -256,10 +258,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service.potter
 
-# MotoActions
-PRODUCT_PACKAGES += \
-    LineageActions
-
 # Media (OMX)
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
@@ -288,6 +286,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
+
+# MotoActions
+PRODUCT_PACKAGES += \
+    MotoActions
 
 # Netutils
 PRODUCT_PACKAGES += \
@@ -318,7 +320,6 @@ PRODUCT_PACKAGES += \
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
-
 
 # Properties
 -include $(LOCAL_PATH)/device_props.mk

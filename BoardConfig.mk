@@ -21,9 +21,6 @@ DEVICE_PATH := device/motorola/potter
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
-# Overlay
-DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
-
 BOARD_VENDOR := motorola-qcom
 
 # AIDs and CAPS

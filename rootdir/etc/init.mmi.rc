@@ -210,7 +210,7 @@ on boot
    chown system oem_5004 /sys/bus/spi/devices/spi8.0/irq_cnt
    chmod 0440 /sys/bus/spi/devices/spi8.0/irq_cnt
 
- # Change ownership and permission for backlight
+   # Change ownership and permission for backlight
    chown system system /sys/class/backlight/lcd-backlight:0/brightness
    chmod 0664 /sys/class/backlight/lcd-backlight:0/brightness
    chown system system /sys/class/backlight/lcd-backlight:0/max_brightness
@@ -251,15 +251,6 @@ on boot
 # Change the ownership of display TE files for tcmds
    chown root oem_5004 /sys/class/graphics/fb0/te_enable
    chown root oem_5004 /sys/class/graphics/fb0/frame_counter
-
-
-# FPC device parameter permissions
-   chown system oem_5004 /sys/bus/spi/devices/spi12.0/nav
-   chown system oem_5004 /sys/bus/spi/devices/spi12.0/clk_enable
-   chown system oem_5004 /sys/bus/spi/devices/spi12.0/dev_enable
-   chown system oem_5004 /sys/bus/spi/devices/spi12.0/irq
-   chown system oem_5004 /sys/bus/spi/devices/spi12.0/irq_cnt
-   chmod 0440 /sys/bus/spi/devices/spi12.0/irq_cnt
 
    # Change ownership of aov related sysfs entries
    wait /sys/kernel/aov/event

@@ -33,4 +33,3 @@ PRODUCT_NAME := lineage_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := potter
-

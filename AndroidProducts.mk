@@ -14,9 +14,9 @@
 
 # inherit Moto G (5S) Plus device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_potter.mk
+    $(LOCAL_DIR)/lineage_potter.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_potter-user \
-    aosp_potter-userdebug \
-    aosp_potter-eng
+    lineage_potter-user \
+    lineage_potter-userdebug \
+    lineage_potter-eng

@@ -1,11 +1,11 @@
 # Audio
-etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
-etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
-etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
-etc/acdbdata/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
-etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
-etc/acdbdata/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
-etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
+system/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
+system/etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
+system/etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
+system/etc/acdbdata/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
+system/etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
+system/etc/acdbdata/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
+system/etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Audio - Prebuilt - from deen_sprout:10/QPKS30.54-22-20
 vendor/lib/hw/audio.primary.msm8953.so|2066cc9b744cd73f8d8e6d872a88e07438da451c
@@ -480,30 +480,30 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib/com.fingerprints.extension@1.0_vendor.so
 
 # Firmwares - emmc
-etc/firmware/emmc_ffu_15_FE12MB.fw:vendor/firmware/emmc_ffu_15_FE12MB.fw
-etc/firmware/emmc_ffu_15_QE13MB.fw:vendor/firmware/emmc_ffu_15_QE13MB.fw
-etc/firmware/emmc_ffu_15_RC14MB.fw:vendor/firmware/emmc_ffu_15_RC14MB.fw
-etc/firmware/emmc_ffu_15_RC1BMB.fw:vendor/firmware/emmc_ffu_15_RC1BMB.fw
-etc/firmware/emmc_ffu_15_RE1BMB.fw:vendor/firmware/emmc_ffu_15_RE1BMB.fw
-etc/firmware/emmc_ffu_15_RX14MB.fw:vendor/firmware/emmc_ffu_15_RX14MB.fw
-etc/firmware/emmc_ffu_15_RX1BMB.fw:vendor/firmware/emmc_ffu_15_RX1BMB.fw
+system/etc/firmware/emmc_ffu_15_FE12MB.fw:vendor/firmware/emmc_ffu_15_FE12MB.fw
+system/etc/firmware/emmc_ffu_15_QE13MB.fw:vendor/firmware/emmc_ffu_15_QE13MB.fw
+system/etc/firmware/emmc_ffu_15_RC14MB.fw:vendor/firmware/emmc_ffu_15_RC14MB.fw
+system/etc/firmware/emmc_ffu_15_RC1BMB.fw:vendor/firmware/emmc_ffu_15_RC1BMB.fw
+system/etc/firmware/emmc_ffu_15_RE1BMB.fw:vendor/firmware/emmc_ffu_15_RE1BMB.fw
+system/etc/firmware/emmc_ffu_15_RX14MB.fw:vendor/firmware/emmc_ffu_15_RX14MB.fw
+system/etc/firmware/emmc_ffu_15_RX1BMB.fw:vendor/firmware/emmc_ffu_15_RX1BMB.fw
 
 # NFC
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
 
 # SCVE
-lib/libscveBlobDescriptor.so
-lib/libscveBlobDescriptor_stub.so
-lib/libscveCommon.so
-lib/libscveCommon_stub.so
-lib/libscveImageCorrection.so
-lib/libscveObjectSegmentation.so
-lib/libscveObjectTracker.so
-lib/libscveObjectTracker_stub.so
-lib/libscvePanorama.so
-lib/libscvePanorama_lite.so
-lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-lib/rfsa/adsp/libscveT2T_skel.so
+system/lib/libscveBlobDescriptor.so
+system/lib/libscveBlobDescriptor_stub.so
+system/lib/libscveCommon.so
+system/lib/libscveCommon_stub.so
+system/lib/libscveImageCorrection.so
+system/lib/libscveObjectSegmentation.so
+system/lib/libscveObjectTracker.so
+system/lib/libscveObjectTracker_stub.so
+system/lib/libscvePanorama.so
+system/lib/libscvePanorama_lite.so
+system/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+system/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/libscveBlobDescriptor.so
 vendor/lib/libscveBlobDescriptor_stub.so
 vendor/lib/libscveCommon.so

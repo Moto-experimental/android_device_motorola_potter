@@ -46,13 +46,6 @@ void property_override(char const prop[], char const value[], bool add = true)
     }
 }
 
-void property_override_triple(char const product_prop[], char const system_prop[], char const vendor_prop[], char const value[])
-{
-    property_override(product_prop, value);
-    property_override(system_prop, value);
-    property_override(vendor_prop, value);
-}
-
 /* Get Ram size for different variants */
 void check_device()
 {
@@ -82,10 +75,6 @@ void num_sims() {
 
 void vendor_load_properties()
 {
-    // fingerprint
-    property_override("ro.build.description", "potter-user 8.1.0 OPSS28.85-17-4 28698 release-keys");
-    property_override_triple("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.vendor.build.fingerprint", "motorola/payton/payton:8.0.0/OPWS27.57-25-6-10/12:user/release-keys");
-
     // sku
     std::string sku = "Moto G5 Plus (";
     sku.append(android::base::GetProperty("ro.boot.hardware.sku", ""));

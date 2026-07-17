@@ -24,7 +24,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
-
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 ## Device identifier. This must come after all inclusions
@@ -33,3 +32,7 @@ PRODUCT_NAME := lineage_potter
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := potter
+
+# Build Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="potter-user 8.1.0 OPSS28.85-17-4 28698 release-keys"

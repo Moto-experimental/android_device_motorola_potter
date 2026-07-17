@@ -15,6 +15,10 @@
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/potter/potter-vendor.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Device Path
 DEVICE_PATH := device/motorola/potter
 

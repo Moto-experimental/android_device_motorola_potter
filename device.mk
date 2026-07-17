@@ -85,9 +85,9 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-	fstab.qcom \
-	fstab_ramdisk.qcom \
-	init.potter.rc
+    fstab.qcom \
+    fstab_ramdisk.qcom \
+    init.potter.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \

@@ -71,5 +71,8 @@ MOT_SENSOR_HUB_FEATURE_GR := true
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # inherit from the proprietary version
 include vendor/motorola/potter/BoardConfigVendor.mk

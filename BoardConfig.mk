@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit from motorola msm8953-common
 -include device/motorola/msm8953-common/BoardConfigCommon.mk
 
@@ -31,9 +34,6 @@ TARGET_KERNEL_CONFIG := potter_defconfig
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
-
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # NFC
 NXP_CHIP_TYPE := PN551

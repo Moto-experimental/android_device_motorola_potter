@@ -14,5 +14,9 @@
   {
     "repository": "android_system_qcom",
     "target_path": "system/qcom"
+  },
+  {
+    "repository": "proprietary_vendor_motorola_addison",
+    "target_path": "vendor/motorola/addison"
   }
 ]

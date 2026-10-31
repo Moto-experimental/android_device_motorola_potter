@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/motorola/addison/BoardConfigVendor.mk
+include vendor/motorola/potter/BoardConfigVendor.mk
 
-DEVICE_PATH := device/motorola/addison
+DEVICE_PATH := device/motorola/potter
 
 # BUILD_BROKEN_*
 BUILD_BROKEN_DUP_RULES := true
@@ -42,7 +42,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8953
 TARGET_NO_BOOTLOADER := true
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := addison,addison_retail
+TARGET_OTA_ASSERT_DEVICE := potter,potter_retail
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -103,9 +103,9 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := addison_defconfig
+TARGET_KERNEL_CONFIG := potter_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
-TARGET_KERNEL_RECOVERY_CONFIG := recovery_addison_defconfig
+#TARGET_KERNEL_RECOVERY_CONFIG := recovery_potter_defconfig
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true

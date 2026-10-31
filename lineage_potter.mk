@@ -29,12 +29,12 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier - This must come after all inclusions
-PRODUCT_DEVICE := addison
+PRODUCT_DEVICE := potter
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_MODEL := Moto Z Play
-PRODUCT_NAME := lineage_addison
+PRODUCT_MODEL := Moto G (5) Plus
+PRODUCT_NAME := lineage_potter
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
-BUILD_FINGERPRINT := "motorola/addison_retail/addison:8.0.0/OPNS27.76-12-22-9/10:user/release-keys"
+BUILD_FINGERPRINT := "motorola/potter/potter:8.1.0/OPS28.85-17-6-2/77e7:user/release-keys"

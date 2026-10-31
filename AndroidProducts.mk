@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_addison.mk
+    $(LOCAL_DIR)/lineage_potter.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_addison-user \
-    lineage_addison-userdebug \
-    lineage_addison-eng
+    lineage_potter-user \
+    lineage_potter-userdebug \
+    lineage_potter-eng

@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Include Proprietary Components
-$(call inherit-product, vendor/motorola/addison/addison-vendor.mk)
+$(call inherit-product, vendor/motorola/potter/potter-vendor.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -193,7 +193,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.addison
+    android.hardware.light@2.0-service.potter
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -230,7 +230,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    $(LOCAL_PATH)/configs/nfc/libnfc-nxp_retcn.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_retcn.conf
 
 # Net
 PRODUCT_PACKAGES += \
@@ -304,7 +303,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Properties
-include device/motorola/addison/vendor_prop.mk
+include device/motorola/potter/vendor_prop.mk
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -342,7 +341,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab_ramdisk.qcom \
     fstab.qcom \
-    init.addison.rc \
+    init.potter.rc \
     init.mmi.rc \
     init.mmi.usb.rc \
     init.qcom.rc \
@@ -403,7 +402,7 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-addison.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
+    $(LOCAL_PATH)/configs/thermal-engine-potter.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
 # Telephony
 PRODUCT_PACKAGES += \
@@ -429,7 +428,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-service.addison
+    android.hardware.vibrator@1.0-service.potter
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
